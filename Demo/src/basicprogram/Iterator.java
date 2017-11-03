@@ -19,6 +19,7 @@ public class Iterator {
 	{
 	    java.util.Iterator<Integer> itr = l.iterator();
 	    
+	    
 	   while(itr.hasNext())
 	   {
 		   
@@ -33,6 +34,7 @@ public class Iterator {
 		   
 	   }
 	   System.out.println(l);
+	 
 	}
 	
 

@@ -24,5 +24,6 @@ public class UniqueElementSize {
 		UniqueElementSize u = new UniqueElementSize();
 		Set<Integer> array= u.uniwue();
 		System.out.println(array);
+		//System.out.println(array);
 	}
 }
