@@ -16,6 +16,7 @@ public class SortedArray {
 		char[] c = Sorted("7860");
 		System.out.println(c);
 		System.out.println(c);
+		
 	}
 
 }
