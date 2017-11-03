@@ -14,20 +14,19 @@ public class StringIterator {
 	
 	public static void Itr(ArrayList<String> l )
 	{
-	    Iterator<String> itr = l.iterator();
-	    
-	    while(itr.hasNext())
+	    for(String s : l )
 	    {
-		    String i = itr.next();
 		   
-	    	if(i.length()>5)
+	    	if(s.length()>5)
 	    	{
-	    		itr.remove();
+	    		l.remove(s);
 	    		
 	    	}
 		 
 	    }
-	   System.out.println(l);
+	    System.out.println(l);
+	}
+	   
 	  
 	}
-}
+
